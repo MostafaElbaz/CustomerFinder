@@ -1,0 +1,6 @@
+framework module Pods_CustomerFinderTests {
+  umbrella header "Pods-CustomerFinderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
