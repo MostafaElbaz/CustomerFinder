@@ -12,15 +12,3 @@ enum SearchSetting {
     static let officeLong = -6.257664
     static let maxDistance = 100.0
 }
-
-enum ErrorType {
-    case NoNetwork
-    case NoData
-    case ExexpectedError
- }
-
-//en searchSetting {
-//    let officeLat = 53.339428
-//    let officeLong = -6.257664
-//    let maxDistance = 100
-//}

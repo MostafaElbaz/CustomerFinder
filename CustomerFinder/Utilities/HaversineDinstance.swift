@@ -9,7 +9,7 @@
 import UIKit
 
 class HaversineDinstance: NSObject {
-  static  func haversineDinstance(la1: Double, lo1: Double, la2: Double, lo2: Double, radius: Double = 6367444.7) -> Double {
+  static  func getDistanceBetween(la1: Double, lo1: Double, la2: Double, lo2: Double, radius: Double = 6367444.7) -> Double {
         
         let haversin = { (angle: Double) -> Double in
             return (1 - cos(angle))/2

@@ -49,7 +49,7 @@ class CustomerViewModel: NSObject {
         var customerFiltered: [Customer] = []
         
         for customer in customers{
-            let disMeter =  HaversineDinstance.haversineDinstance(la1: fromLat, lo1: fromLong, la2: customer.latitude, lo2: customer.longitude)
+            let disMeter =  HaversineDinstance.getDistanceBetween(la1: fromLat, lo1: fromLong, la2: customer.latitude, lo2: customer.longitude)
             
             let disKM = disMeter/1000
             
